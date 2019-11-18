@@ -32,7 +32,7 @@ var isGrantedNotificationAccess:Bool = false
             content.title = "Local Notification Swift3"
             content.subtitle = "Nice Examples"
             content.body = "Notification after 5 seconds"
-            content.sound = UNNotificationSound.default()
+            content.sound = UNNotificationSound.default
             content.launchImageName = "monkey.png"
             
 //            content.badge = 5
